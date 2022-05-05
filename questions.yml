@@ -1,0 +1,52 @@
+- index: 1
+  title: "Timespan: pioneer, revolutionary and visionary photographers"
+  description: "The chronological division of the photographers follows the three volumes of the 'Donne Fotografe' edition by Contrasto publishing house. The photographers are organized into three groups depending on the decades: pioneer (1851-1936), revolutionary (1937-1970) and visionary (1970-2010). The pioneering period saw the opening to endless possibilities even if the career of photographer can prove to be a path full of pitfalls for a woman. The revolutionaries will then succeed in breaking the traditional patterns through their representations that become a real battleground. Finally, visionaries open up to a new imaginary, placing themselves at the forefront and carving out a space in the constantly evolving photography."
+  cover: cover1.jpg
+  folder: question-1
+  datasets:
+    - name: Instagram
+      description: This dataset contains information about 5 Instagram profiles and the corresponding first 30 posts updated to 28/10/2020.  The posts were classified by ID, type of conspiracy, type of non-conspiracy post, type of image, number of likes, and number of profile's followers.
+      src: Protocol1-dataset.csv
+      size: 10.0 KB
+      format: .csv
+
+- index: 2
+  title: "Geographical perspective: photographers’ origin countries"
+  description: "Originally women photographers were mostly Western and operated in countries where photographic companies, clubs and publications take roots, such as the United States, Germany, France and the United Kingdom. These countries are not only the cradle of the first companies of photographic material, such as Kodak in the United States and Zeiss in Germany, but they are the geographical places where women manage to emancipate first and establish themselves in artistic fields such as photography."
+
+  cover: cover2.jpg
+  folder: question-2
+  datasets:
+    - name: Etsy
+      description: This dataset contains the images used and the relative links. For each of them is also indicated other information such as the query used for the research, the image name, the categorization label, the number of reviews and finally the product description.
+      src: P2-dataset.xlsx
+      size: 2.5 MB
+      format: .xslx
+
+- index: 3
+  title: "Photographers’ occupations over the decades"
+  description: "How have the parallel occupations of photographers changed over the decades? Many photographers are in fact multifaceted artists ranging from painting to literature, from architecture to cinema and media arts, while others have parallel occupations in the non-art field. A division has been made between occupations in the artistic field and not, therefore we will have two different data visualizations."
+
+  cover: cover3.jpg
+  folder: question-3
+  datasets:
+    - name: RedBubble
+      description: This dataset contains the links to the images used, their research queries (related to conspiracy theories) and their classification in references and cultural areas. All the images were labelled manually. The images in these dataset represent the top-50 best selling stickers results on RedBubble for each query.
+
+      src: P3_dataset.csv
+      size: 35 KB
+      format: .csv
+
+- index: 4
+  title: "Photographers’ occupations over the countries"
+  description: "What have been the most widespread parallel occupations in the United States, France, Germany and the United Kingdom? The four countries with the highest number of female photographers in the entire dataset and the thirteen most widespread and relevant occupations were selected. It is interesting to note the trends and contextualize them to the socio-cultural scenario of the countries. The reading of this path can be combined with the third view that historically frames the parallel occupations."
+
+  cover: cover4.jpg
+  folder: question-4
+  datasets:
+    - name: 4Plebs
+      description: The dataset includes all of the metadata of images collected from 4chan.plebs and the manual clusterization based on the visual topics. Each file is identified with the corresponding URL, the 4chan board and the nationality (real or fictional) of the writer. About the content, pictures are classified by character and in some cases sub-groups.
+
+      src: protocol4_Dataset.csv
+      size: 839 KB
+      format: .csv

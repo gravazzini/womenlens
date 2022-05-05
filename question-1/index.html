@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Women Lens</title>
+  <!-- Manually insert your metadata -->
+  <meta property="title" content="It Looks Like a Conspiracy Theory">
+  <meta property="description" content="Conspiracy theories are living their Golden Age (Politico): fostered by online platforms, social media and uncertain times, they have been spreading among people in different ways and through various channels.
+Some of the most recent theories have started to spread from user-generated content published online: for example, the hashtag  #saveourchildren was used to share accusations to the Democrats, implying that they are a satanic pedophile ring, which is one of the theories supported by QAnon; Youtube has been recommending videos about the “Flat earth” theory to mass audiences (BBC) until in 2019 the company decided to change the algorithm to prevent their proliferation (wired).
+Despite various attempts by social media platforms to stop conspiracy theories-related content from spreading, these theories still widely circulate online.">
+  <meta property="og:description" content="Conspiracy theories are living their Golden Age (Politico): fostered by online platforms, social media and uncertain times, they have been spreading among people in different ways and through various channels.
+Some of the most recent theories have started to spread from user-generated content published online: for example, the hashtag  #saveourchildren was used to share accusations to the Democrats, implying that they are a satanic pedophile ring, which is one of the theories supported by QAnon; Youtube has been recommending videos about the “Flat earth” theory to mass audiences (BBC) until in 2019 the company decided to change the algorithm to prevent their proliferation (wired).
+Despite various attempts by social media platforms to stop conspiracy theories-related content from spreading, these theories still widely circulate online.">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  <script src="./variables.js"></script>
+  <script src="./chart-ph-type.js"></script>
+  <script src="script.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Copy and paste styles from main index.html file -->
+   <link rel="stylesheet" href="https://use.typekit.net/imw7jre.css">
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+  </head>
+  <body>
+    <!-- Qua bisognerebbe mettere "go to next qeustion" -->
+    <header id="questions-navigation"></header>
+    <main class="container" id="question-container">
+      <div class="question-title">
+        <h3>Not only photographers</h3>
+        <h1>Timespan: pioneer, revolutionary and visionary photographers</h1>
+      </div>
+      <div id="visualization">
+      
+        <div style="width: 600px; height: 400px; margin-bottom: 400px; margin-left: 20%;">
+          <canvas id="phTypeChart" width="400px" height="400px" ></canvas>
+        </div>
+        
+      </div>
+      <div>
+      <p class="intro-text">
+      <p>The chronological division of the photographers follows the three volumes of the "Donne Fotografe" edition by Contrasto publishing house. The photographers are organized into three groups depending on the decades: <mark>pioneer</mark> (1851-1936), <mark>revolutionary</mark> (1937-1970) and <mark>visionary</mark> (1970-2010). The pioneering period saw the opening to endless possibilities even if the career of photographer can prove to be a path full of pitfalls for a woman. The revolutionaries will then succeed in breaking the traditional patterns through their representations that become a real battleground. Finally, visionaries open up to a new imaginary, placing themselves at the forefront and carving out a space in the constantly evolving photography.</p>
+      
+          </div>
+      <div class="main-text-title"><h3>Main findings</h3></div>
+      <div class="main-text">
+      <p>
+      Women have been using the camera since its origins and throughout the middle of the 19th century. Among the pioneers, there are many scholars of science who use photography to inventory their discoveries, such as <mark>Anna Atkins</mark>, a botany creator of cyanotypes that reproduce the contours of plants; as well as there are photographers who lead a double life, such as Edith Tudor-Hart, an established photographer of Austrian origin who becomes a spy for the KGB in the 1930s.</p>
+        <img alt="Anna Atkins" src="atkins1.jpg">
+        <img alt="Anna Atkins" src="atkins.jpg">
+        <hr />
+      <p>In the middle of the 20th century, women used photography to take a stand and assert their personal gaze. Holding high the flag of the engaged photograph, they participate in multiple armed battles of their apparatus, from the Resistance to feminism. One example is the French photographer <mark>Janine Niépce</mark>, who studied art history in Paris during the Second World War and worked on some films about the Resistance. He then became a reporter and witnessed the events of May ‘68 and the Women’s Liberation Movement throughout the 1970s.</p>
+       <img alt="Janine Niépce" src="niepce1.jpg">
+       <img alt="Janine Niépce" src="niepce.jpg">
+        <hr />
+      <p>In the second half of the 20th century, the world of photography always focused on the West, is now globalized and giving rise to the progressive recognition of photographers from other continents as can be seen from the presence of women operating in India, South Korea or Madagascar. The boundaries between photography, film, performance and installation are increasingly blurred. There are many authors who, in the course of their projects, pass from one practice to another. <mark>Malala Andrialavidrazana</mark>, born in 1971 in Madagascar, after studying architecture in Paris, in the 90s takes an anthropological approach to photograph funeral customs and Malagasy commemorative rites. Between intimate exploration and sociological portrait, Malala overturns exotic stereotypes and so she is fully entitled under the label of visual and visionary artist.</p>
+          <img alt="Malala" src="malala1.jpg">
+          <img alt="Malala" src="malala.jpg">
+        <hr />
+         
+      
+      </div>
+    </main>
+    <main class="container" id="datasets-container" style="font-size: 1.1rem; line-height: 1.5; text-indent: 1.2rem;">
+      <div class="main-text-title"><h3>Datasets:</h3></div>
+        <!-- populated by load-templates.js -->
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsRkWcOsiueCplEVwhyWjtVqUHvG94knzINrD5-pgrzcO31_anwLXhDzBN-Lgy9NzqEbzX7ei66X6L/pub?gid=0&single=true&output=csv">
+          Timeline.csv
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsRkWcOsiueCplEVwhyWjtVqUHvG94knzINrD5-pgrzcO31_anwLXhDzBN-Lgy9NzqEbzX7ei66X6L/pub?gid=1905568726&single=true&output=csv">
+          Countries.csv
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsRkWcOsiueCplEVwhyWjtVqUHvG94knzINrD5-pgrzcO31_anwLXhDzBN-Lgy9NzqEbzX7ei66X6L/pub?gid=1144740092&single=true&output=csv">
+          Occupations.csv
+        </a>
+    </main>
+    <main class="container footer">
+      <!-- contents cards will be generated here from info.yml -->
+    </main>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"
+      integrity="sha512-ia9gcZkLHA+lkNST5XlseHz/No5++YBneMsDp1IZRJSbi1YqQvBeskJuG1kR+PH1w7E0bFgEZegcj0EwpXQnww=="
+      crossorigin="anonymous"
+    ></script>
+      <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <script src="../load-templates-questions.js"></script>
+       <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+      <script src="./scriptP1.js"></script>
+      
+  </body>
+</html>
